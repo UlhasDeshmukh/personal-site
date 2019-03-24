@@ -21,11 +21,6 @@ const pages = [
     heading: 'PROJECTS',
   },
   {
-    route: '/stats',
-    title: 'Stats | Ulhas Deshmukh',
-    heading: 'STATS',
-  },
-  {
     route: '/contact',
     title: 'Contact | Ulhas Deshmukh',
     heading: 'CONTACT',
