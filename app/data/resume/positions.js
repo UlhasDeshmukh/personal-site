@@ -1,25 +1,24 @@
 
 const positions = [
   {
-    company: 'Arthena',
-    position: 'Cofounder, C.T.O.',
-    link: 'https://arthena.com',
-    daterange: 'January 2014 - Present',
+    company: 'Xoriant',
+    position: 'Sr. Test Engineer',
+    link: 'https://xoriant.com',
+    daterange: 'June 2016 - Present',
     points: [
-      'Created a new financial product for private equity investing. Deployed models to predict the valuation of art at auction.',
-      'Lead development team, set development lifecycle, and managed analytics and web products.',
-      'Developed comprehensive simulations using MCMC, Modern Portfolio Theory, GLM, etc. using Scikit, PyMC3, and Jupyter.',
-      'YC Alumn. Worked on everything. Built a 16-person team.',
+      'Developed Mobile Test automation using Robot Framework.',
+      'Lead Mobile Test automation team, set test development lifecycle, and team KRA.',
+      'Developed comprehensive Test Automation framework and automated 1000+ test cases using Robot Framework, Appium, Selenium,Python.',
     ],
   }, {
-    company: 'Enveritas',
-    position: 'Consultant',
-    link: 'http://enveritas.org',
-    daterange: 'September 2016 - Present',
+    company: 'TinyOwl',
+    position: 'Sr. QA. Engineer',
+    link: 'https://www.linkedin.com/company/tinyowl/about/',
+    daterange: 'June 2015 - June 2016',
     points: [
-      'Trained a model for the Brazilian Coffee Scenes Dataset with better than state of the art accuracy.',
-      'Collected training sets on the ground in Uganda. Built dashboards to visualize work of surveyors using Flask, React, and D3.',
-      'Performed supporting analysis to ensure data integrity using Pandas, t-SNE, SVM’s, and other techniques.',
+      'Test automation framework design for Mobile app, control panel, website and backend API’s.',
+      'Working with team of 5 automation test engineers',
+      'Test Automation using Appium, cucumber, capybara, Selenium,ruby,java.',
     ],
   }, {
     company: 'Zenysis',
