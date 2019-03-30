@@ -3,66 +3,120 @@
 // TODO: Add Althetic Skills, Office Skills (?)
 export const categories = [
   {
-    name: 'Data Science',
+    name: 'Software Testing',
+    color: '#37b1f5',
+  },
+  {
+    name: 'Test Automation',
     color: '#515dd4',
   }, {
-    name: 'Databases',
+    name: 'Web Automation',
     color: '#3896e2',
   }, {
-    name: 'Design',
+    name: 'Mobile Automation',
     color: '#747fff',
   }, {
-    name: 'Frameworks',
+    name: 'API Testing',
+    color: '#cc7b94',
+  },{
+    name: 'Testing Frameworks',
     color: '#64cb7b',
-  }, {
-    name: 'Javascript',
-    color: '#d75858',
   }, {
     name: 'Languages',
     color: '#6968b3',
   }, {
-    name: 'Machine Learning',
+    name: 'Databases',
     color: '#e47272',
-  }, {
-    name: 'Other',
-    color: '#c3423f',
-  }, {
-    name: 'Python',
-    color: '#37b1f5',
+  },{
+    name: 'Web Development',
+    color: '#cc7b94',
   }, {
     name: 'Tools',
     color: '#40494e',
   }, {
-    name: 'Web Development',
-    color: '#cc7b94',
-  },
+    name: 'Other',
+    color: '#c3423f',
+  }, 
 ];
 
 export const skills = [
   {
-    title: 'Javascript',
-    compentency: 5,
-    category: ['Web Development', 'Languages', 'Javascript'],
-  },
-  {
-    title: 'Node.JS',
-    compentency: 5,
-    category: ['Web Development', 'Frameworks', 'Javascript'],
-  },
-  {
-    title: 'React',
+    title: 'Regression Testing',
     compentency: 4,
-    category: ['Web Development', 'Frameworks', 'Javascript'],
+    category: [ 'Software Testing'],
   },
   {
-    title: 'Backbone',
+    title: 'User Acceptance Testing',
+    compentency: 4,
+    category: [ 'Software Testing'],
+  },
+  {
+    title: 'Test Management',
+    compentency: 4,
+    category: [ 'Software Testing'],
+  },{
+    title: 'Test Planning',
+    compentency: 4,
+    category: ['Software Testing'],
+  },{
+    title: 'Functional Testing',
+    compentency: 4,
+    category: ['Software Testing'],
+  },
+  {
+    title: 'Continuous Integration',
     compentency: 3,
-    category: ['Web Development', 'Frameworks', 'Javascript'],
+    category: ['Other'],
   },
   {
-    title: 'Bootstrap',
+    title: 'Javascript',
+    compentency: 3,
+    category: ['Languages'],
+  },
+  {
+    title: 'Appium',
     compentency: 5,
-    category: ['Web Development', 'Frameworks'],
+    category: ['Mobile Automation', 'Test Automation'],
+  },
+  {
+    title: 'Selenium',
+    compentency: 5,
+    category: ['Web Automation', 'Test Automation'],
+  },
+  {
+    title: 'Cucumber',
+    compentency: 5,
+    category: ['Web Automation', 'Test Automation', 'Testing Frameworks'],
+  },
+  {
+    title: 'capybara',
+    compentency: 3,
+    category: ['Web Automation', 'Test Automation', 'Testing Frameworks'],
+  },
+  {
+    title: 'Cypress',
+    compentency: 3,
+    category: ['Web Automation', 'Test Automation', 'Testing Frameworks'],
+  },
+  {
+    title: 'RobotFramework',
+    compentency: 5,
+    category: ['Web Automation', 'Test Automation', 'Testing Frameworks', 'Mobile Automation',],
+  },
+  {
+    title: 'Protractor',
+    compentency: 5,
+    category: ['Web Automation', 'Test Automation', 'Testing Frameworks'],
+  },
+  {
+    title: 'MS SQL Server',
+    compentency: 4,
+    category: ['Databases'],
+  },
+  {
+    title: 'IBM DB2',
+    compentency: 3,
+    category: ['Databases'],
   },
   {
     title: 'Bash',
@@ -71,7 +125,7 @@ export const skills = [
   },
   {
     title: 'Amazon Web Services',
-    compentency: 4,
+    compentency: 2,
     category: ['Web Development', 'Tools'],
   },
   {
@@ -81,11 +135,6 @@ export const skills = [
   },
   {
     title: 'MongoDB',
-    compentency: 4,
-    category: ['Web Development', 'Databases'],
-  },
-  {
-    title: 'ElasticSearch',
     compentency: 3,
     category: ['Web Development', 'Databases'],
   },
@@ -95,63 +144,13 @@ export const skills = [
     category: ['Web Development', 'Databases'],
   },
   {
-    title: 'SQLite3',
-    compentency: 4,
-    category: ['Web Development', 'Databases'],
-  },
-  {
     title: 'Redis',
     compentency: 3,
     category: ['Web Development', 'Databases'],
   },
   {
-    title: 'Matlab',
-    compentency: 3,
-    category: ['Data Science', 'Machine Learning', 'Languages'],
-  },
-  {
-    title: 'Julia',
+    title: 'SVN',
     compentency: 4,
-    category: ['Data Science', 'Machine Learning'],
-  },
-  {
-    title: 'Data Mining',
-    compentency: 3,
-    category: ['Data Science', 'Machine Learning'],
-  },
-  {
-    title: 'Express.JS',
-    compentency: 5,
-    category: ['Web Development', 'Frameworks', 'Javascript'],
-  },
-  {
-    title: 'Koa',
-    compentency: 3,
-    category: ['Web Development', 'Frameworks', 'Javascript'],
-  },
-  {
-    title: 'D3',
-    compentency: 3,
-    category: ['Web Development', 'Frameworks', 'Design', 'Javascript'],
-  },
-  {
-    title: 'Flask',
-    compentency: 4,
-    category: ['Web Development', 'Frameworks', 'Python'],
-  },
-  {
-    title: 'Product Development',
-    compentency: 3,
-    category: ['Other'],
-  },
-  {
-    title: 'Data Analysis',
-    compentency: 3,
-    category: ['Data Science', 'Machine Learning'],
-  },
-  {
-    title: 'Mercurial',
-    compentency: 3,
     category: ['Tools'],
   },
   {
@@ -160,34 +159,14 @@ export const skills = [
     category: ['Tools'],
   },
   {
-    title: 'Arc',
+    title: 'HP ALM',
     compentency: 3,
     category: ['Tools'],
   },
   {
-    title: 'Numpy',
+    title: 'Jenkins',
     compentency: 3,
-    category: ['Data Science', 'Machine Learning', 'Python'],
-  },
-  {
-    title: 'Caffe',
-    compentency: 4,
-    category: ['Machine Learning'],
-  },
-  {
-    title: 'Tensorflow',
-    compentency: 4,
-    category: ['Data Science', 'Machine Learning', 'Python'],
-  },
-  {
-    title: 'Jupyter',
-    compentency: 4,
-    category: ['Data Science', 'Machine Learning', 'Python'],
-  },
-  {
-    title: 'Typescript',
-    compentency: 3,
-    category: ['Web Development', 'Languages'],
+    category: ['Tools'],
   },
   {
     title: 'HTML',
@@ -196,83 +175,73 @@ export const skills = [
   },
   {
     title: 'CSS',
-    compentency: 5,
-    category: ['Web Development', 'Languages'],
-  },
-  {
-    title: 'SASS/SCSS',
-    compentency: 5,
-    category: ['Web Development', 'Languages'],
-  },
-  {
-    title: 'LESS',
-    compentency: 5,
+    compentency: 3,
     category: ['Web Development', 'Languages'],
   },
   {
     title: 'Python',
-    compentency: 5,
-    category: ['Languages', 'Python'],
+    compentency: 4,
+    category: ['Languages'],
 
   },
   {
-    title: 'C++',
+    title: 'C#',
+    compentency: 2,
+    category: ['Languages'],
+  },
+  {
+    title: 'Java',
     compentency: 3,
     category: ['Languages'],
   },
   {
-    title: 'Photoshop',
+    title: 'Ruby',
     compentency: 3,
-    category: ['Design'],
+    category: ['Languages'],
   },
   {
-    title: 'Lightroom',
-    compentency: 5,
-    category: ['Design'],
-  },
-  {
-    title: 'InDesign',
+    title: 'Perl',
     compentency: 2,
-    category: ['Design'],
+    category: ['Languages'],
   },
   {
-    title: 'Wireframing',
+    title: 'ASP.net',
     compentency: 4,
-    category: ['Design', 'Web Development'],
+    category: ['Web Development'],
   },
   {
-    title: 'Keras',
+    title: 'TestNG',
     compentency: 4,
-    category: ['Machine Learning', 'Python'],
+    category: ['Testing Frameworks'],
   },
   {
-    title: 'Visualization',
+    title: 'JUnit',
     compentency: 4,
-    category: ['Data Science', 'Javascript'],
+    category: ['Testing Frameworks'],
   },
   {
-    title: 'GraphQL',
-    compentency: 3,
-    category: ['Web Development', 'Databases'],
-  },
-  {
-    title: 'Pandas',
+    title: 'PyUnit',
     compentency: 4,
-    category: ['Data Science', 'Python'],
+    category: ['Testing Frameworks'],
   },
   {
-    title: 'Matplotib',
+    title: 'PyTest',
     compentency: 4,
-    category: ['Data Science', 'Python'],
+    category: ['Testing Frameworks'],
   },
   {
-    title: 'Scikit-Lean',
+    title: 'Rest Assured',
     compentency: 4,
-    category: ['Data Science', 'Python'],
+    category: ['Testing Frameworks', 'API Testing'],
   },
   {
-    title: 'Pylint',
+    title: 'SoapUI',
     compentency: 4,
-    category: ['Python'],
+    category: ['Testing Frameworks', 'API Testing'],
+  },
+  {
+    title: 'Postman',
+    compentency: 4,
+    category: ['Testing Frameworks', 'API Testing', 'Tools'],
   },
 ];
