@@ -69,6 +69,11 @@ export const skills = [
     category: ['Other'],
   },
   {
+    title: 'Team Leading',
+    compentency: 3,
+    category: ['Other'],
+  },
+  {
     title: 'Javascript',
     compentency: 3,
     category: ['Languages'],
