@@ -4,7 +4,7 @@ const data = [
     title: 'Mobile Device Farm',
     subtitle: 'SmartPhone Test Farm based on openstf',
     link: '/projects/MobileFarm/',
-    image: 'images/projects/STF.png',
+    image: 'images/projects/STF.jpeg',
     date: '2016-12-15',
     desc: 'Control and manage real Smartphone devices from your browser'
       + ' based on openstf.io framework,'
