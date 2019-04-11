@@ -7,9 +7,7 @@ import ReactGA from 'react-ga';
 import Header from '../components/Template/Header';
 import Nav from '../components/Template/Nav';
 
-if (NODE_ENV === 'production') {
-  ReactGA.initialize('UA-2325268-2');
-}
+ReactGA.initialize('UA-2325268-2');
 
 class Main extends Component {
   componentWillMount() {
@@ -17,12 +15,10 @@ class Main extends Component {
   }
 
   componentDidMount() {
-    if (NODE_ENV === 'production') {
       ReactGA.set({
         page: window.location.pathname,
       });
       ReactGA.pageview(window.location.pathname);
-    }
   }
 
   render() {

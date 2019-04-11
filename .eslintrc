@@ -9,7 +9,7 @@
   "globals": {
     "BASE_PATH": "readable",
     "GA_ID": "UA-2325268-2",
-    "NODE_ENV": "readable"
+    "NODE_ENV": "production"
   },
   "rules": {
     "no-console": ["error", { allow: ["warn", "error", "info"] }],
