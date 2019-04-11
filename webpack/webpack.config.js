@@ -22,7 +22,7 @@ export default {
     new webpack.DefinePlugin({
       BASE_PATH: JSON.stringify(basePath),
       NODE_ENV: JSON.stringify(process.env.NODE_ENV || 'development'),
-      GA_ID: JSON.stringify(process.env.GA_ID || ''),
+      GA_ID: JSON.stringify(process.env.GA_ID || 'UA-2325268-2'),
     }),
     new HtmlWebpackPlugin({
       template: 'server/views/index.tpl.html',

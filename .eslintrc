@@ -8,7 +8,7 @@
   },
   "globals": {
     "BASE_PATH": "readable",
-    "GA_ID": "readable",
+    "GA_ID": "UA-2325268-2",
     "NODE_ENV": "readable"
   },
   "rules": {
@@ -25,7 +25,7 @@
             "components": [ "Link" ],
             "specialLink": [ "to", "hrefLeft", "hrefRight" ],
             "aspects": [ "noHref", "invalidHref", "preferButton" ]
-          }],
+          }]
   },
   "plugins": [
     "mocha",
