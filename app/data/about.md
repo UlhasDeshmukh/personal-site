@@ -1,6 +1,6 @@
 
 #### Intro
-I am a software testing specialits, currently working as Sr. Test Engineer at [Xoriant](https://xoriant.com) where I work in product engineering team. My primary job functions are as a Mobile Test Automation and Software Engineer in Test.
+I am a software testing specialist, currently working as Sr. Test Engineer at [Xoriant](https://xoriant.com) where I work in product engineering team. My primary job functions are as a Mobile Test Automation and Software Engineer in Test.
 <br>
 <br>
 #### Currently
