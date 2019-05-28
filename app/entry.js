@@ -10,6 +10,7 @@ import About from './views/About';
 import Projects from './views/Projects';
 import Resume from './views/Resume';
 import Contact from './views/Contact';
+import TestSite from './views/test-site';
 
 import NotFound from './views/NotFound';
 
@@ -24,6 +25,7 @@ ReactDOM.render(
       <Route path="/projects" component={Projects} />
       <Route path="/contact" component={Contact} />
       <Route path="/resume" component={Resume} />
+      <Route path="/TestWebSite" component={TestSite} />
       {/* Only useful in development mode */}
       <Route component={NotFound} status={404} />
     </Switch>
