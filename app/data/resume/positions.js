@@ -1,10 +1,21 @@
 
 const positions = [
   {
+    company: 'Delta.Exchange',
+    position: 'Sr. QA Engineer',
+    link: 'https://delta.exchange.',
+    daterange: 'Sep 2019 - Present',
+    points: [
+      'Test Web and Mobile website of crypto exchange',
+      'Funcationality, usability and API Testing',
+      'Test automation using Cypress.io, Karate DSL',
+    ],
+  },
+  {
     company: 'Xoriant',
-    position: 'Sr. Test Engineer',
+    position: 'Test Lead',
     link: 'https://xoriant.com',
-    daterange: 'June 2016 - Present',
+    daterange: 'June 2016 - Sep 2019',
     points: [
       'Developed Mobile Test automation using Robot Framework.',
       'Lead Mobile Test automation team, set test development lifecycle, and team KRA.',
@@ -23,7 +34,7 @@ const positions = [
   }, {
     company: 'Arrk Group',
     position: 'Sr. Test Analyst - Automation',
-    link: 'http://zenysis.com',
+    link: 'https://www.arrkgroup.com/',
     daterange: 'November 2014 - March 2015',
     points: [
       'Test automation estimation,Test case design',
