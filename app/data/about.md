@@ -4,6 +4,7 @@ I am a software testing specialist, currently working as Sr. QA Engineer at [Del
 
 <br>
 <br>
+
 #### Currently
 At Delta.Exchange, I'm automating web testcases using cypress and cross browser/device testing using BrowserStack. in the past, I have learned how to work with large team and manage people, build relationships with customers, demo test automation capabilities and build automation test framwork, test infrastructure for various web and mobile applications.
 
